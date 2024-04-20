@@ -1,4 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: pink;
+    img {
+  display: block;
+  max-width: 100%;
+}
 }
