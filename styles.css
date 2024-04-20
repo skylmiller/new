@@ -3,6 +3,6 @@ body {
     background-color: pink;
     img {
   display: block;
-  max-width: 100%;
+  max-width: 1000%;
 }
 }
