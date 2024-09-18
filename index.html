@@ -16,3 +16,23 @@
 </html>
    <p>If Hello Kitty can coquer the world without a mouth, what’s your excuse?.</p>
  <img src="https://images.app.goo.gl/pYh6nSeoXGukeQgr6"> 
+    <html>
+  <head>
+    <title>My Site</title>
+  </head>
+  <body>
+    <button onclick="toggleText()">Read More</button>
+    <p id="moreText" style="display:none;">Here is some more information...</p>
+
+    <script>
+      function toggleText() {
+        var text = document.getElementById("moreText");
+        if (text.style.display === "none") {
+          text.style.display = "block";
+        } else {
+          text.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
